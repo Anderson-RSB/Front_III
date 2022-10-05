@@ -1,0 +1,44 @@
+
+.delete__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100vw;
+    height: 20vh;
+    border: solid red 1px;
+
+    label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn__delete{
+            background-color: red;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+        }
+    }
+}
+
+.update__item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100vw;
+    height: 20vh;
+    border: solid yellow 1px;
+
+    label{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn__delete{
+            background-color: black;
+            margin-top: 0.5rem;
+            padding: 0.5rem;
+        }
+    }
+}

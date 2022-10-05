@@ -1,0 +1,16 @@
+.btn__options{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    width: 65vw;
+    background-color: black;
+    color: black;
+    border: solid white 1px;
+    border-radius: 10px;
+
+     svg{
+        width: 2rem;
+        height: 2rem;
+        background-color: black;
+    }
+  }

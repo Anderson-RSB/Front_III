@@ -1,0 +1,146 @@
+/* ____ Fonte = Roboto || Categoria dos vinhos____ */
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Roboto:wght@100&family=Source+Code+Pro:wght@500&display=swap");
+/* ____ Fonte = Garamond || titulo dos vinhos____ */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap");
+/* ____ Fonte = Bellefair || ranking____ */
+@import url("https://fonts.googleapis.com/css2?family=Bellefair&display=swap");
+
+body {
+  background-color: #231f2a;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: x-small;
+    width: 100vw;
+    height: 30vh;
+    background-color: #000;
+    color: white;
+} */
+
+.shoppingCart {
+    background: transparent;
+    border: none;
+    padding: 0%;
+}
+
+.nav-link>svg {
+    width: 50px;
+    height: auto;
+    color: white;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.logo img {
+  width: 5rem;
+  height: 5rem;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link img {
+  color: white;
+  width: 5rem;
+  height: 5rem;
+  /* margin-left: 21vh; */
+}
+
+.toggle {
+  background-color: white;
+  color: white;
+}
+
+span .navbar-toggler-icon {
+  color: white;
+}
+/* .navbar input {
+    width: 50vw;
+    padding: 10px;
+} */
+
+/* #sidebar {
+    height: 100vh;
+    padding: 0px 10px 0px 50px;
+    position: fixed;
+    min-width: 250px;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1;
+    background-color: #B8ACA0;
+}
+
+.sidebar--open {
+    height: 100vh;
+    padding: 0px 10px 0px 50px;
+    position: fixed;
+    min-width: 250px;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1;
+    transition: all .5s;
+    transform: translateX(0);
+}
+
+.sidebar--close {
+    height: 100vh;
+    padding: 0px 10px 0px 50px;
+    position: fixed;
+    min-width: 250px;
+    top: 0;
+    left: 0;
+    width: 250px;
+    z-index: 1;
+    transition: all .5s;
+    transform: translateX(-250px);
+} */
+
+
+
+
+
+
+
+
+
+/* Page Wines */
+
+
+
+
+
+
+/* Fim da Page Wines */
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px)
+{
+  .nav-off {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,44 @@
+.product_image {
+  background: transparent;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 40vh;
+  width: 45vw;
+  position: absolute;
+  margin-top: 50vh;
+}
+
+.product_background {
+  margin-right: 30%;
+  font-family: $Font_Number;
+  padding-top: 8%;
+  background-color: $bg_color2;
+  height: 13vh;
+  width: 24vw;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 300%;
+  position: relative;
+  background-position-y: 80px;
+}
+
+.wine_product_title {
+  text-align: center;
+  color: white;
+  font-size: 260%;
+}
+
+.categoria_Vinho {
+  font-family: roboto;
+  font-size: 90%;
+}
+
+
+/* .product_price {
+  color: white;
+  background-color: #231f2a;
+  text-align: center;
+  border-radius: 25px 25px 25px 25px;
+  margin-top: -50px;
+} */

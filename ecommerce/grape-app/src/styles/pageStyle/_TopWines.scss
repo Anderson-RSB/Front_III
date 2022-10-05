@@ -1,0 +1,218 @@
+/* Top Wines */
+
+/* _______Corpo Melhores Vinhos_____ */
+.MelhoresVinhos {
+  background-color: $bg_color;
+  height: 135vh;
+  width: 100vw;
+  /* padding-top: 6%;*/
+  /* padding-left: 6%;  */
+}
+
+.titulo_mv {
+  font-size: 180%;
+  font-family: $Font_Everything;
+}
+
+.titulo_margin {
+  padding: 5%;
+}
+
+/*________________________________ vinhos 1 2 3 _______________________________*/
+
+/* _____Alinhamento dos 3 vinhos_____ */
+.bestTres {
+  margin-top: 8%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 100px;
+}
+
+/* _____Alinhamento de box vinho_____ */
+.alinhar_mv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* _____Alinhar Vinho e o Um____ */
+.alinharUm {
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.Um {
+  margin-right: 30%;
+  font-family: $Font_Number;
+  padding-top: 8%;
+  background-color: $bg_color2;
+  height: 13vh;
+  width: 24vw;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 300%;
+  /* Para deixar o vinha na frente do circulo */
+  position: relative;
+  background-position-y: 80px;
+}
+
+/* ____Alinhamento da Descrição____ */
+.descricaoVinho {
+  width: 35vw;
+  margin-top: 50%;
+  position: absolute;
+  text-align: center;
+}
+
+.titulo_Vinho {
+  font-size: 260%;
+  
+}
+
+.categoria_Vinho {
+  font-family: roboto;
+  font-size: 90%;
+}
+
+/* _____Vinho 1_____ */
+.best1 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Tinto/vik_chile.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 35vw;
+  /* Para deixar o vinha na frente do circulo */
+  position: absolute;
+  background-position-y: -6px;
+  background-position-x: 2px;
+}
+
+/* _____Alinhamento dos vinhos 2 e 3_____ */
+.bestDois {
+  display: flex;
+  align-items: baseline;
+  gap: 40px;
+}
+
+/* _____Ranking 2 e 3_____ */
+.DoisTres {
+  font-family: $Font_Number;
+  margin-right: 30%;
+  padding: 5%;
+  background-color: $bg_color2;
+  height: 9vh;
+  width: 18vw;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 250%;
+  /* Para deixar o vinha na frente do circulo */
+  position: relative;
+}
+
+.alinharDoisTres {
+  width: 40vw;
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.tituloVinho {
+  font-size: 180%;
+  font-family: $Font_Wine_Title;
+}
+
+.categoriaVinho {
+  font-family: roboto;
+  font-size: 70%;
+}
+
+.best2 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Branco/VeuveClicquot.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 30vh;
+  width: 30vw;
+  position: absolute;
+  background-position-y: -6px;
+  background-position-x: -10px;
+}
+
+.best3 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Tinto/calitera.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 27vh;
+  width: 30vw;
+  position: absolute;
+  background-position-y: 1px;
+  background-position-x: 25px;
+}
+
+/*________________________________ vinhos lista 4 _______________________________*/
+
+.boxwine {
+  margin-top: 20%;
+  width: 100%;
+  height: 27vh;
+}
+
+/* _____ alinhamento dos 4 vinhos */
+.alinhar4 {
+  padding-top: 4%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.vinho4 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Tinto/Codici.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 11vw;
+  height: 23vh;
+}
+
+.vinho5 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Tinto/manikay_australia.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 11vw;
+  height: 23vh;
+}
+
+.vinho6 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Branco/RioFlor.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 11vw;
+  height: 23vh;
+}
+
+.vinho7 {
+  background: transparent;
+  background-image: url(../src/assets/Vinho_Verde/Aveleda.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 9.8vw;
+  height: 22vh;
+}
+
+.MelhoresVinhos {
+  margin-top: 19vh;
+}

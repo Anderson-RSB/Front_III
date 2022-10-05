@@ -1,0 +1,40 @@
+@import "./variables";
+@import "./mixins";
+@import "./heritage";
+
+// Import das folhas de estilo dos componentes:
+@import "./componentStyle/Footer";
+@import "./componentStyle/HarmonyCarousel";
+@import "./componentStyle/MainCarousel";
+@import "./componentStyle/NavOff";
+@import "./componentStyle/WineHouse";
+@import "./componentStyle/WinesCarousel";
+@import "./componentStyle/ButtonAdd";
+@import "./componentStyle//Form";
+
+// Import das folhas de estilo das páginas:
+@import "./pageStyle/Harmonization";
+@import "./pageStyle/Home";
+@import "./pageStyle/OurStory";
+@import "./pageStyle/ShoppingCart";
+@import "./pageStyle/TopWines";
+@import "./pageStyle/WineProduct";
+@import "./pageStyle/Wines";
+@import "./pageStyle/Administration";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color:$bg_color3;
+    overflow-x: hidden;
+}
+
