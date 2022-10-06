@@ -1,7 +1,6 @@
 import { useContext, useEffect } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
-// import Footer from '../components/Footer'
 
 import { ProductContext } from "../context/ProductContext";
 
@@ -124,8 +123,8 @@ export default function Wines() {
             <div>
               <Slider {...settings}>
                 {/* <Link className="" to="/Carrinho"> */}
-                {filteredWines.map((wine) => {
-                  return (
+                {filteredWines.map((wine) => (
+                  <Link to={'/Wine/' + wine.id}>
                     <div key={wine.id}>
                       <div className="carousel-wine-item ">
                         <img
@@ -142,8 +141,8 @@ export default function Wines() {
                         </div>
                       </div>
                     </div>
-                  );
-                })}
+                    </Link>                  
+                ))}
                 {/* </Link> */}
               </Slider>
             </div>

@@ -50,17 +50,7 @@ function TopWinesCarousel() {
     ],
   };
 
-  const { wines, setCart } = useContext(ProductContext);
-
-  // const [topWines, setTopWines] = useState([]);
-
-  // const url = "http://52.53.193.244:8081/products";
-
-  // useEffect(() => {
-  //   fetch(url)
-  //     .then((response) => response.json())
-  //     .then((data) => setTopWines(data));
-  // }, []);
+  const { wines } = useContext(ProductContext);
 
   return (
     <>
@@ -80,8 +70,9 @@ function TopWinesCarousel() {
                     <Link
                       className="text"
                       to="/Wine"
+                      variant={"outline-disabled"}
                       style={{ textDecoration: "none" }}
-                      >
+                    >
                       <Card
                         id={`topWine_${wine.id}`}
                         border="light"

@@ -31,7 +31,7 @@ const RouteList = () => {
             <Route path="/Carrinho" element={<ShoppingCart />} />
             <Route path="/NossaHistoria" element={<NossaHistoria />} />
             <Route path="/Administration" element={<Administration />} />
-            <Route path="/WineProduct" element={<WineProduct />} />
+            <Route path="/Wine/:idWine" element={<WineProduct />} />
           </Routes>
           <footer>
             <Footer />
