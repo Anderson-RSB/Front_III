@@ -18,9 +18,9 @@ export default function Administration() {
 
       <FormPost />
 
-      <FormDelete />
+      {/* <FormDelete />
 
-      <FormUpdate />
+      <FormUpdate /> */}
 
       {/* <Footer /> */}
     </>

@@ -21,8 +21,8 @@ export default function WineProduct() {
   return (
     <>
       <div className="product_background">
-        <img className="product_image" src={selectedProduct.image} alt="" />
-        <h1 className="wine_product_title">{}</h1>
+        <img className="product_image" src={selectedProduct?.image} alt="" />
+        <h1 className="wine_product_title">{selectedProduct?.title}</h1>
       </div>
       {/* informações */}
       <div className="d-flex flex-row justify-content-between align-items-center mt-5">

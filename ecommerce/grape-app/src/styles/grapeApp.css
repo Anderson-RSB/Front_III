@@ -283,7 +283,7 @@ input {
 /* _____Vinho 1_____ */
 .best1 {
   background: transparent;
-  background-image: url(../src/assets/Vinho_Tinto/vik_chile.png);
+  /* background-image: url(../src/assets/Vinho_Tinto/vik_chile.png); */
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

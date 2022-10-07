@@ -49,8 +49,6 @@ function MyVerticallyCenteredModal(props) {
             <img src={wines?.image} />
           ))}
           
-          <img src="" />
-          <img src="" />
         </Modal.Body>
         <Modal.Footer className="boxModal bg-dark">
           <Button onClick={props.onHide}>Close</Button>

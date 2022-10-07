@@ -1,6 +1,15 @@
-// import Footer from '../components/Footer'
+import React, {useContext, useState } from "react";
+import {ProductContext} from "../context/ProductContext";
 
 function MelhoresVinhos() {
+
+
+const {wines} = useContext(ProductContext);
+
+const bestwines = wines
+
+
+
   return (
     <>
       <section className="MelhoresVinhos">
@@ -9,6 +18,7 @@ function MelhoresVinhos() {
         </div>
 
         {/* ___________ Vinhos 1 2 3 ___________ */}
+        {/*  */}
         <div className="bestTres">
           {/* vinho 1 */}
           <div className="alinhar_mv">
@@ -16,7 +26,8 @@ function MelhoresVinhos() {
               <div className="Um">
                 <p>1</p>
               </div>
-              <div className="best1"></div>
+              {/* <div className="best1"></div> */}
+              {/* <img className="best1" src={}/> */}
 
               <div className="descricaoVinho">
                 <p className="titulo_Vinho">Vik</p>
